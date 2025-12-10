@@ -25,11 +25,11 @@ WHERE
   END$$
  
 
-  CALL sp_pedidoNombreCliente (10);
+  CALL sp_pedidoNombreCliente(10);
 -------------------------------------------------------------
 --Consulta de resumen de pedidos por método de pago
 DELIMITER $$
-CREATE PROCEDURE sp_pedidosMetodoPago(IN p_idpedido INT)
+CREATE PROCEDURE sp_pedidosMetodoPago()
 BEGIN
 SELECT 
   ped.metodo_pago,
@@ -43,12 +43,12 @@ GROUP BY
   END$$
 
 
-  CALL sp_pedidosMetodoPago (10);
+  CALL sp_pedidosMetodoPago();
 -------------------------------------------------------------
 ---Consulta de clientes frecuentes
 
 DELIMITER $$
-CREATE PROCEDURE sp_Clientesfrecuentes(IN p_idcliente INT)
+CREATE PROCEDURE sp_Clientesfrecuentes()
 BEGIN
 SELECT 
   p.nombre AS cliente,
@@ -65,6 +65,4 @@ HAVING
   COUNT(ped.id_pedido) > 5;
   END$$
 
-
-
-  CALL sp_Clientesfrecuentes(10);
+  CALL sp_Clientesfrecuentes();
