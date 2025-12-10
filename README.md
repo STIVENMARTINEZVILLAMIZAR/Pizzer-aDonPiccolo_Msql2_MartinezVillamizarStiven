@@ -1,4 +1,4 @@
-# Pizzer-aDonPiccolo_Msql2_MartinezVillamizarStiven
+# Pizzeria-DonPiccolo_Msql2_MartinezVillamizarStiven
 
 **CONTEXTO**
 
@@ -22,4 +22,18 @@ TABLAS
 - PEDIDO_PIZZA
 - PIZZAS
 
-ESTRUCTURA PROYECTO**
+**ESTRUCTURA PROYECTO**
+
+Pizzeria-DonPiccolo_Msql2_MartinezVillamizarStiven
+|
+  - *BD*
+      - database.sql
+      -inserts.json
+| 
+   -*Consultas*
+    -Consulta.sql
+|
+ -*README.md*
+
+ *AUTOR* - STIVEN MARTINEZ VILLAMIZAR
+ 
