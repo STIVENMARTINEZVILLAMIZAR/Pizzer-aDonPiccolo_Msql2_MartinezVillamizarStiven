@@ -31,17 +31,14 @@ CREATE TABLE CLIENTE (
 -- PEDIDO
 -- ================================
 CREATE TABLE PEDIDO (
-  idPEDIDO INT AUTO_INCREMENT PRIMARY KEY,
-  idCLIENTE INT NOT NULL,
-  idREPARTIDOR INT NOT NULL,
+  id_pedido INT AUTO_INCREMENT PRIMARY KEY,
+  id_cliente INT NOT NULL,
   fecha_pedido DATE NOT NULL,
   metodo_pago VARCHAR(30) NOT NULL,
-  estado (ENUM: 'pendiente', 'preparacion', 'entregado', 'cancelado') NOT NULL,
-  total (DECIMAL(10,2)),
-  FOREIGN KEY (idCLIENTE) REFERENCES CLIENTE(idCLIENTE),
-  FOREIGN KEY (idREPARTIDOR) REFERENCES REPARTIDOR(idREPARTIDOR)
+  estado ENUM('pendiente', 'preparacion', 'entregado', 'cancelado') NOT NULL,
+  total DECIMAL(10,2),
+  FOREIGN KEY (id_cliente) REFERENCES CLIENTE(idCLIENTE)
 );
-
 
 -- ================================
 -- PIZZAS
@@ -56,19 +53,13 @@ CREATE TABLE PIZZAS (
 );
 
 -- ================================
--- PEDIDO_PIZZA
+-- PEDIDO_ITEM
 -- ================================
 CREATE TABLE PEDIDO_PIZZA (
-  idITEM INT AUTO_INCREMENT PRIMARY KEY,
-  idPEDIDO INT NOT NULL,
-  idPIZZA INT NOT NULL,
+  id_pedido INT NOT NULL,
+  id_pizza INT NOT NULL,
   cantidad INT NOT NULL,
-  subtotal DECIMAL(10,2) NOT NULL,
-  FOREIGN KEY (idPEDIDO) REFERENCES PEDIDO(idPEDIDO),
-  FOREIGN KEY (idPIZZA) REFERENCES PIZZAS(id)
+  PRIMARY KEY (id_pedido, id_pizza),
+  FOREIGN KEY (id_pedido) REFERENCES PEDIDO(id_pedido),
+  FOREIGN KEY (id_pizza) REFERENCES PIZZAS(id)
 );
-
-
-
-
-
