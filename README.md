@@ -1,1 +1,25 @@
 # Pizzer-aDonPiccolo_Msql2_MartinezVillamizarStiven
+
+**CONTEXTO**
+
+La Pizzería Don Piccolo desea mejorar el control de sus pedidos.
+
+Cada pedido incluye información del cliente, las pizzas solicitadas, la fecha del pedido, el método de pago y el estado (pendiente, en preparación, entregado, cancelado).
+
+Actualmente, el gerente necesita consultar, validar y actualizar los pedidos de manera más eficiente.
+
+Tu tarea consiste en diseñar y consultar datos del módulo de pedidos para optimizar la gestión diaria de órdenes y estados.
+ 
+**PROBLEMATICA**
+
+Modelar correctamente la tabla de pedidos, relacionarla con clientes y pizzas, y crear consultas SQL funcionales que permitan obtener información útil para la toma de decisiones.
+
+
+TABLAS
+
+- PERSONA
+- CLIENTE
+- PEDIDO_PIZZA
+- PIZZAS
+
+ESTRUCTURA PROYECTO**
