@@ -1,4 +1,4 @@
-# Pizzeria-DonPiccolo_Msql2_MartinezVillamizarStiven
+**Pizzeria-DonPiccolo_Msql2_MartinezVillamizarStiven**
 
 **CONTEXTO**
 
@@ -23,10 +23,9 @@ TABLAS
 - PIZZAS
 
 **ESTRUCTURA PROYECTO**
-
 Pizzeria-DonPiccolo_Msql2_MartinezVillamizarStiven
 |
-  - *BD*
+  -*BD*
       - database.sql
       -inserts.json
 | 
