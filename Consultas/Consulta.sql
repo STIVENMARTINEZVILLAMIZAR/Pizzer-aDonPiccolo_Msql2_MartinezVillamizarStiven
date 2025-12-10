@@ -24,3 +24,6 @@ WHERE
 
   END$$
   DELIMITER//
+
+  CALL sp_pedidoNombreCliente (10);
+-------------------------------------------------------------

@@ -1,0 +1,185 @@
+
+INSERT INTO PERSONA (nombre, correo, telefono, direccion) VALUES
+('Andrés Pérez', 'andres.perez@email.com', '3101234567', 'Carrera 5 # 10-20, Bogotá'),
+('María López', 'maria.lopez@email.com', '3009876543', 'Calle 7 # 3-15, Medellín'),
+('Javier Castro', 'javier.castro@email.com', '3205551234', 'Av. 80 # 45-60, Cali'),
+('Sofía Gómez', 'sofia.gomez@email.com', '3156667890', 'Calle 100 # 15-30, Bogotá'),
+('Carlos Díaz', 'carlos.diaz@email.com', '3012223344', 'Carrera 43 # 2-50, Barranquilla'),
+('Juan Rodríguez', 'juan.rodriguez@email.com', '3118889900', 'Calle 20 # 5-10, Repartidor A'),
+('Paula Torres', 'paula.torres@email.com', '3054445566', 'Av. Suba # 150-10, Repartidor B'),
+('David Vargas', 'david.vargas@email.com', '3127778899', 'Diagonal 68 # 3-70, Repartidor C'),
+('Elena Ruiz', 'elena.ruiz@email.com', '3041112233', 'Transversal 30 # 8-90, Cliente D'),
+('Ricardo Mora', 'ricardo.mora@email.com', '3130001122', 'Calle 95 # 50-05, Cliente E'),
+('Laura Herrera', 'laura.herrera@email.com', '3167770011', 'Calle 50 # 8A-12, Bucaramanga'),
+('Miguel Ángel', 'miguel.angel@email.com', '3219998877', 'Carrera 70 # 10-55, Pereira'),
+('Ana Quintero', 'ana.quintero@email.com', '3023334455', 'Diagonal 50 # 11-22, Cartagena'),
+('Pedro Sánchez', 'pedro.sanchez@email.com', '3176543210', 'Avenida 3 # 4-56, Manizales'),
+('Camila Rojas', 'camila.rojas@email.com', '3031239876', 'Calle 12 # 1A-30, Cúcuta'),
+('Felipe Velez', 'felipe.velez@email.com', '3185556677', 'Carrera 8 # 20-40, Ibagué'),
+('Diana Mesa', 'diana.mesa@email.com', '3074443322', 'Calle 9 # 12-10, Neiva'),
+('Santiago Gil', 'santiago.gil@email.com', '3143332211', 'Avenida 40 # 10-05, Villavicencio'),
+('Valeria Tovar', 'valeria.tovar@email.com', '3089988776', 'Carrera 6 # 3-50, Pasto'),
+('Oscar León', 'oscar.leon@email.com', '3191122334', 'Calle 25 # 7-15, Montería'),
+('Natalia Cruz', 'natalia.cruz@email.com', '3224455667', 'Carrera 13 # 4-20, Tunja'),
+('Daniel Marin', 'daniel.marin@email.com', '3097788990', 'Calle 60 # 9-80, Armenia'),
+('Viviana Soto', 'viviana.soto@email.com', '3106677889', 'Diagonal 7 # 1-25, Popayán'),
+('Esteban Pardo', 'esteban.pardo@email.com', '3001122334', 'Carrera 1 # 10-15, Riohacha'),
+('Mariana Rico', 'mariana.rico@email.com', '3152233445', 'Calle 8 # 15-20, Valledupar'),
+('Héctor Ochoa', 'hector.ochoa@email.com', '3207788990', 'Carrera 20 # 3-55, Sincelejo'),
+('Jenny Vargas', 'jenny.vargas@email.com', '3045566778', 'Avenida 10 # 5-60, Quibdó'),
+('Jorge Pira', 'jorge.pira@email.com', '3138899001', 'Calle 10 # 12-30, Florencia'),
+('Alejandra Niño', 'alejandra.nino@email.com', '3010011223', 'Carrera 50 # 1-40, Yopal'),
+('Fabián Rincón', 'fabian.rincon@email.com', '3123344556', 'Calle 70 # 8-95, Mocoa'),
+('Luisa Bernal', 'luisa.bernal@email.com', '3145566778', 'Carrera 90 # 10-10, Cliente 31'),
+('Hernán Díaz', 'hernan.diaz@email.com', '3056677889', 'Calle 40 # 5-50, Cliente 32'),
+('Mónica Pérez', 'monica.perez@email.com', '3167788990', 'Avenida 15 # 2-30, Cliente 33'),
+('Gustavo Gil', 'gustavo.gil@email.com', '3078899001', 'Carrera 25 # 6-70, Cliente 34'),
+('Lina Torres', 'lina.torres@email.com', '3189900112', 'Calle 35 # 7-80, Cliente 35'),
+('Wilmer Soto', 'wilmer.soto@email.com', '3190011223', 'Diagonal 8 # 11-15, Cliente 36'),
+('Erika Castro', 'erika.castro@email.com', '3201122334', 'Carrera 18 # 4-55, Cliente 37'),
+('Álvaro Ruiz', 'alvaro.ruiz@email.com', '3002233445', 'Calle 55 # 9-20, Cliente 38'),
+('Sofía Marín', 'sofia.marin@email.com', '3013344556', 'Avenida 2 # 1-10, Cliente 39'),
+('Rubén Darío', 'ruben.dario@email.com', '3114455667', 'Carrera 30 # 3-80, Cliente 40'),
+('Patricia Ossa', 'patricia.ossa@email.com', '3025566778', 'Calle 65 # 10-01, Cliente 41'),
+('Germán León', 'german.leon@email.com', '3126677889', 'Diagonal 9 # 15-25, Cliente 42'),
+('Jenny Ospina', 'jenny.ospina@email.com', '3037788990', 'Carrera 45 # 2-45, Cliente 43'),
+('Mauricio Gil', 'mauricio.gil@email.com', '3138899001', 'Calle 10 # 1-30, Cliente 44'),
+('Carol Sierra', 'carol.sierra@email.com', '3049900112', 'Avenida 12 # 5-15, Cliente 45'),
+('Julián Naranjo', 'julian.naranjo@email.com', '3140011223', 'Carrera 10 # 3-10, Repartidor F'),
+('Viviana Peña', 'viviana.pena@email.com', '3051122334', 'Calle 22 # 4-25, Repartidor G'),
+('Mario Acosta', 'mario.acosta@email.com', '3152233445', 'Diagonal 3 # 7-50, Repartidor H'),
+('Silvia Rico', 'silvia.rico@email.com', '3063344556', 'Carrera 55 # 1-10, Repartidor I'),
+('Eduardo Mora', 'eduardo.mora@email.com', '3164455667', 'Calle 80 # 6-30, Repartidor J');
+
+
+
+INSERT INTO PIZZAS (nombre, tamaño, precio_base, tipo, estado) VALUES
+('Hawaiana', 'Familiar', 48000.00, 'Clásica', 'Activa'),
+('Pollo Champiñones', 'Mediana', 36000.00, 'Clásica', 'Activa'),
+('Pepperoni Extra', 'Personal', 22000.00, 'Gourmet', 'Activa'),
+('Vegetariana', 'Familiar', 52000.00, 'Vegana', 'Activa'),
+('Cuatro Quesos', 'Mediana', 40000.00, 'Clásica', 'Activa'),
+('Napolitana', 'Personal', 19000.00, 'Clásica', 'Activa'),
+('Mexicana Picante', 'Familiar', 50000.00, 'Especial', 'Activa'),
+('Carnes Frías', 'Mediana', 42000.00, 'Especial', 'Activa'),
+('Bacon y Cebolla', 'Personal', 23000.00, 'Clásica', 'Activa'),
+('Mariscos', 'Familiar', 65000.00, 'Gourmet', 'Inactiva'),
+('Clásica Jamón', 'Personal', 18000.00, 'Clásica', 'Activa'),
+('Doble Pollo', 'Familiar', 55000.00, 'Clásica', 'Activa'),
+('Champiñones Trufados', 'Mediana', 45000.00, 'Gourmet', 'Activa'),
+('Ranchera', 'Personal', 24000.00, 'Especial', 'Activa'),
+('BBQ Pollo', 'Familiar', 51000.00, 'Especial', 'Activa'),
+('Solo Queso', 'Mediana', 32000.00, 'Clásica', 'Activa'),
+('Pavo y Tocino', 'Personal', 25000.00, 'Gourmet', 'Activa'),
+('Salmón Ahumado', 'Familiar', 70000.00, 'Gourmet', 'Activa'),
+('Prosciutto e Rúcula', 'Mediana', 48000.00, 'Gourmet', 'Activa'),
+('Pesto y Tomate Seco', 'Personal', 21000.00, 'Vegana', 'Activa'),
+('Tropical', 'Familiar', 49000.00, 'Clásica', 'Activa'),
+('Criolla', 'Mediana', 39000.00, 'Especial', 'Activa'),
+('Doble Pepperoni', 'Personal', 26000.00, 'Gourmet', 'Activa'),
+('Alcachofas y Espinaca', 'Familiar', 53000.00, 'Vegana', 'Activa'),
+('Caprese', 'Mediana', 37000.00, 'Clásica', 'Activa'),
+('Hongos Silvestres', 'Personal', 27000.00, 'Gourmet', 'Activa'),
+('Chorizo Español', 'Familiar', 54000.00, 'Especial', 'Activa'),
+('Morcilla y Manzana', 'Mediana', 41000.00, 'Especial', 'Activa'),
+('Margarita', 'Personal', 17000.00, 'Clásica', 'Activa'),
+('Vegetariana Light', 'Familiar', 50000.00, 'Vegana', 'Activa'),
+('Cinco Quesos', 'Mediana', 44000.00, 'Gourmet', 'Activa'),
+('Pollo Pesto', 'Personal', 23000.00, 'Gourmet', 'Activa'),
+('Hawaiana Picante', 'Familiar', 49000.00, 'Especial', 'Activa'),
+('Res y Pimientos', 'Mediana', 43000.00, 'Especial', 'Activa'),
+('Tocineta', 'Personal', 25000.00, 'Clásica', 'Activa'),
+('Pepperoni y Champiñones', 'Familiar', 50000.00, 'Clásica', 'Activa'),
+('Pollo BBQ', 'Mediana', 41000.00, 'Especial', 'Activa'),
+('Jamón y Maíz', 'Personal', 20000.00, 'Clásica', 'Activa'),
+('Vegana Suprema', 'Familiar', 56000.00, 'Vegana', 'Activa'),
+('Mozzarella de Búfala', 'Mediana', 50000.00, 'Gourmet', 'Activa'),
+('Serrano y Melón', 'Personal', 28000.00, 'Gourmet', 'Activa'),
+('Tres Carnes', 'Familiar', 58000.00, 'Especial', 'Activa'),
+('Piña y Tocineta', 'Mediana', 39000.00, 'Clásica', 'Activa'),
+('Panceta', 'Personal', 26000.00, 'Gourmet', 'Activa'),
+('Calabacín y Queso Azul', 'Familiar', 55000.00, 'Vegana', 'Activa'),
+('Jamón Serrano', 'Mediana', 47000.00, 'Gourmet', 'Activa'),
+('Boloñesa', 'Personal', 24000.00, 'Especial', 'Activa'),
+('Pimentón Asado', 'Familiar', 51000.00, 'Vegana', 'Activa'),
+('Pera y Gorgonzola', 'Mediana', 46000.00, 'Gourmet', 'Activa'),
+('Pizza de Postre', 'Personal', 30000.00, 'Postre', 'Activa');
+
+
+
+
+INSERT INTO CLIENTE (idCLIENTE) VALUES
+(1),(2),(3),(4),(5),(9),(10),(11),(12),(13),(14),(15),(16),(17),(18),
+(19),(20),(21),(22),(23),(24),(25),(26),(27),(28),(29),(30),(31),(32),
+(33),(34),(35),(36),(37),(38),(39),(40),(41),(42),(43),(44),(45);
+
+
+INSERT INTO PEDIDO (idCLIENTE, idREPARTIDOR, hora_salida, hora_entrega) VALUES
+(1, 1, '2025-12-01 19:00:00', '2025-12-01 19:25:00'),
+(2, 3, '2025-12-01 20:10:00', '2025-12-01 20:45:00'),
+(3, 2, '2025-12-02 13:05:00', '2025-12-02 13:25:00'),
+(4, 1, '2025-12-02 19:30:00', '2025-12-02 20:00:00'),
+(5, 3, '2025-12-02 21:00:00', '2025-12-02 21:35:00'),
+(9, 4, '2025-12-03 12:45:00', '2025-12-03 13:10:00'),
+(10, 5, '2025-12-03 18:50:00', '2025-12-03 19:30:00'),
+(11, 1, '2025-12-03 20:05:00', '2025-12-03 20:30:00'),
+(12, 6, '2025-12-04 14:15:00', '2025-12-04 14:45:00'),
+(13, 7, '2025-12-04 19:40:00', '2025-12-04 20:20:00'),
+(14, 8, '2025-12-05 13:00:00', '2025-12-05 13:35:00'),
+(15, 1, '2025-12-05 20:20:00', '2025-12-05 21:00:00'),
+(16, 2, '2025-12-06 18:30:00', '2025-12-06 18:55:00'),
+(17, 3, '2025-12-06 21:10:00', '2025-12-06 21:40:00'),
+(18, 4, '2025-12-07 15:00:00', '2025-12-07 15:25:00'),
+(19, 5, '2025-12-07 19:50:00', '2025-12-07 20:35:00'),
+(20, 6, '2025-12-08 11:30:00', '2025-12-08 12:00:00'),
+(21, 7, '2025-12-08 20:00:00', '2025-12-08 20:25:00'),
+(22, 8, '2025-12-09 19:15:00', '2025-12-09 19:45:00'),
+(23, 1, '2025-12-09 20:30:00', '2025-12-09 21:00:00');
+
+
+
+INSERT INTO PEDIDO_PIZZA (idPEDIDO, idPIZZA, cantidad) VALUES
+-- Pedido 1
+(1, 1, 1), -- Hawaiana F
+(1, 3, 1), -- Pepperoni Extra P
+-- Pedido 2
+(2, 2, 2), -- Pollo Champiñones M (2 * 36000)
+-- Pedido 3
+(3, 4, 1), -- Vegetariana F
+-- Pedido 4
+(4, 5, 1), -- Cuatro Quesos M
+(4, 11, 2), -- Clásica Jamón P (2 * 18000)
+-- Pedido 5
+(5, 7, 1), -- Mexicana Picante F
+-- Pedido 6
+(6, 1, 1), -- Hawaiana F
+(6, 6, 1), -- Napolitana P
+-- Pedido 7
+(7, 8, 1), -- Carnes Frías M
+-- Pedido 8
+(8, 14, 2), -- Ranchera P (2 * 24000)
+-- Pedido 9
+(9, 12, 1), -- Doble Pollo F
+-- Pedido 10
+(10, 15, 1), -- BBQ Pollo F
+(10, 5, 1), -- Cuatro Quesos M
+-- Pedido 11
+(11, 17, 3), -- Pavo y Tocino P (3 * 25000)
+-- Pedido 12
+(12, 21, 1), -- Tropical F
+-- Pedido 13
+(13, 22, 1), -- Criolla M
+-- Pedido 14
+(14, 23, 1), -- Doble Pepperoni P
+-- Pedido 15
+(15, 25, 2), -- Caprese M (2 * 37000)
+-- Pedido 16
+(16, 28, 1), -- Morcilla y Manzana M
+-- Pedido 17
+(17, 30, 1), -- Vegetariana Light F
+-- Pedido 18
+(18, 32, 1), -- Pollo Pesto P
+-- Pedido 19
+(19, 36, 1), -- Pepperoni y Champiñones F
+-- Pedido 20
+(20, 37, 1); -- Pollo BBQ M	
