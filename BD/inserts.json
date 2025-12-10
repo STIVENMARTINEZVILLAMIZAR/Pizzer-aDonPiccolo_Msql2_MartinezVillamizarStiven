@@ -114,72 +114,28 @@ INSERT INTO CLIENTE (idCLIENTE) VALUES
 (33),(34),(35),(36),(37),(38),(39),(40),(41),(42),(43),(44),(45);
 
 
-INSERT INTO PEDIDO (idCLIENTE, idREPARTIDOR, hora_salida, hora_entrega) VALUES
-(1, 1, '2025-12-01 19:00:00', '2025-12-01 19:25:00'),
-(2, 3, '2025-12-01 20:10:00', '2025-12-01 20:45:00'),
-(3, 2, '2025-12-02 13:05:00', '2025-12-02 13:25:00'),
-(4, 1, '2025-12-02 19:30:00', '2025-12-02 20:00:00'),
-(5, 3, '2025-12-02 21:00:00', '2025-12-02 21:35:00'),
-(9, 4, '2025-12-03 12:45:00', '2025-12-03 13:10:00'),
-(10, 5, '2025-12-03 18:50:00', '2025-12-03 19:30:00'),
-(11, 1, '2025-12-03 20:05:00', '2025-12-03 20:30:00'),
-(12, 6, '2025-12-04 14:15:00', '2025-12-04 14:45:00'),
-(13, 7, '2025-12-04 19:40:00', '2025-12-04 20:20:00'),
-(14, 8, '2025-12-05 13:00:00', '2025-12-05 13:35:00'),
-(15, 1, '2025-12-05 20:20:00', '2025-12-05 21:00:00'),
-(16, 2, '2025-12-06 18:30:00', '2025-12-06 18:55:00'),
-(17, 3, '2025-12-06 21:10:00', '2025-12-06 21:40:00'),
-(18, 4, '2025-12-07 15:00:00', '2025-12-07 15:25:00'),
-(19, 5, '2025-12-07 19:50:00', '2025-12-07 20:35:00'),
-(20, 6, '2025-12-08 11:30:00', '2025-12-08 12:00:00'),
-(21, 7, '2025-12-08 20:00:00', '2025-12-08 20:25:00'),
-(22, 8, '2025-12-09 19:15:00', '2025-12-09 19:45:00'),
-(23, 1, '2025-12-09 20:30:00', '2025-12-09 21:00:00');
+INSERT INTO PEDIDO (id_cliente, fecha_pedido, metodo_pago, estado, total) VALUES
+(1, '2025-10-01', 'Tarjeta', 'entregado', 28.49),
+(2, '2025-10-02', 'Efectivo', 'entregado', 15.99),
+(3, '2025-10-02', 'Tarjeta', 'preparacion', 36.00),
+(4, '2025-10-03', 'Transferencia', 'cancelado', 13.50),
+(5, '2025-10-03', 'Tarjeta', 'entregado', 9.99),
+(6, '2025-10-04', 'Efectivo', 'entregado', 49.50),
+(7, '2025-10-04', 'Tarjeta', 'pendiente', 28.00),
+(8, '2025-10-05', 'Transferencia', 'preparacion', 17.50),
+(9, '2025-10-05', 'Efectivo', 'pendiente', 41.98),
+(10, '2025-10-06', 'Tarjeta', 'entregado', 12.50);
 
 
-
-INSERT INTO PEDIDO_PIZZA (idPEDIDO, idPIZZA, cantidad) VALUES
--- Pedido 1
-(1, 1, 1), -- Hawaiana F
-(1, 3, 1), -- Pepperoni Extra P
--- Pedido 2
-(2, 2, 2), -- Pollo Champiñones M (2 * 36000)
--- Pedido 3
-(3, 4, 1), -- Vegetariana F
--- Pedido 4
-(4, 5, 1), -- Cuatro Quesos M
-(4, 11, 2), -- Clásica Jamón P (2 * 18000)
--- Pedido 5
-(5, 7, 1), -- Mexicana Picante F
--- Pedido 6
-(6, 1, 1), -- Hawaiana F
-(6, 6, 1), -- Napolitana P
--- Pedido 7
-(7, 8, 1), -- Carnes Frías M
--- Pedido 8
-(8, 14, 2), -- Ranchera P (2 * 24000)
--- Pedido 9
-(9, 12, 1), -- Doble Pollo F
--- Pedido 10
-(10, 15, 1), -- BBQ Pollo F
-(10, 5, 1), -- Cuatro Quesos M
--- Pedido 11
-(11, 17, 3), -- Pavo y Tocino P (3 * 25000)
--- Pedido 12
-(12, 21, 1), -- Tropical F
--- Pedido 13
-(13, 22, 1), -- Criolla M
--- Pedido 14
-(14, 23, 1), -- Doble Pepperoni P
--- Pedido 15
-(15, 25, 2), -- Caprese M (2 * 37000)
--- Pedido 16
-(16, 28, 1), -- Morcilla y Manzana M
--- Pedido 17
-(17, 30, 1), -- Vegetariana Light F
--- Pedido 18
-(18, 32, 1), -- Pollo Pesto P
--- Pedido 19
-(19, 36, 1), -- Pepperoni y Champiñones F
--- Pedido 20
-(20, 37, 1); -- Pollo BBQ M	
+INSERT INTO PEDIDO_PIZZA (id_pedido, id_pizza, cantidad) VALUES
+(1, 1, 1), -- Pedido 1: 1x Margarita
+(1, 2, 1), -- Pedido 1: 1x Pepperoni
+(2, 2, 1), -- Pedido 2: 1x Pepperoni
+(3, 3, 2), -- Pedido 3: 2x Cuatro Quesos
+(4, 4, 1), -- Pedido 4: 1x Hawaiana
+(5, 5, 1), -- Pedido 5: 1x Vegetal
+(6, 6, 3), -- Pedido 6: 3x Barbacoa Pollo
+(7, 7, 2), -- Pedido 7: 2x Marinera
+(8, 8, 1), -- Pedido 8: 1x Picante Diabla
+(9, 10, 2), -- Pedido 9: 2x Especial de la Casa
+(10, 1, 1); -- Pedido 10: 1x Margarita
